@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.target:hover{
+    transform: scale(1.1)
+}
+
+.target img{
+    align-self: center; 
+    width: 100%;
+    filter: grayscale(1);
+    transition-property: filter;
+    transition-duration: 1s;
+}
+
+.target img:hover{
+    filter: grayscale(0);
+}

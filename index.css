@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    /*flex: 0 1 auto;*/
+}
+
+.box1{
+    background-color: cornflowerblue;
+}
+
+.box2{
+    background-color: yellowgreen;
+}
+
+.box3{
+    background-color: yellow;
+}
+
+.box4{
+    background-color: lightblue;
+}
+
+.box5{
+    background-color: lightgreen;
+}
+
+.box6{
+    background-color: lightyellow;
+}
